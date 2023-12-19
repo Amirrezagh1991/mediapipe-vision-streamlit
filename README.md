@@ -10,6 +10,9 @@ The tasks included in this repo are:
 - **Selfie Segmentation**: Segment the background and foreground in images, perfect for creating fun and creative effects.
 - **Face stylization**: Apply face sylizations to faces in an image.
 
+## Demo
+
+![Short Demo](https://github.com/Amirrezagh1991/mediapipe-vision-streamlit/blob/main/demo/mediapipe-demo.mov?raw=true)
 
 ## Getting Started
 
