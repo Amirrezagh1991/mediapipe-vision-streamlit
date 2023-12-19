@@ -1,8 +1,9 @@
 ## MediaPipe Computer Vision Tasks with Streamlit
 
-Welcome to the MediaPipe Computer Vision Tasks Streamlit App repository! This app is designed to showcase and
-demonstrate various computer vision tasks powered by MediaPipe, a powerful framework for building real-time
-applications. The tasks included in this repo are:
+Welcome to the MediaPipe Computer Vision Tasks Streamlit App repository! This repo is designed to showcase and
+demonstrate various computer vision tasks powered by <a href="https://google.github.io/mediapipe/" style="text-decoration: none;">**Mediapipe**</a>, 
+a powerful framework for building real-time applications with <a href="https://streamlit.io/" style="text-decoration: none;">**StreamLit**</a>.
+The tasks included in this repo are:
 
 - **Face detection**: Detect faces in images and videos, and analyze facial landmarks, expressions, and poses.
 - **Face landmark detection**: Detect face landmarks and facial expressions in images and videos.
