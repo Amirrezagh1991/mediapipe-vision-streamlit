@@ -141,7 +141,6 @@ class SelfieSegmentation:
         self.base_options = python.BaseOptions(model_asset_path=configs.MODELS_SEGMENT)
         self.options = vision.ImageSegmenterOptions(base_options=self.base_options,
                                        output_category_mask=True)
-
         self.detector = vision.ImageSegmenter.create_from_options(self.options)
 
     def predict(self, rgb_image):
@@ -163,9 +162,7 @@ class FaceStylization:
     def __init__(self):
         self.base_options = python.BaseOptions(model_asset_path=configs.MODELS_STYLE)
         self.options = vision.FaceStylizerOptions(base_options=self.base_options)
-
         self.detector = vision.FaceStylizer.create_from_options(self.options)
-
     def predict(self, rgb_image):
         mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb_image)
         stylized_image = self.detector.stylize(mp_image)

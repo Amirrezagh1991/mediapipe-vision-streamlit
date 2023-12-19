@@ -8,7 +8,7 @@ import configs
 def _helper(model_type):
 
     if model_type == 'Face Detection':
-        detector = FaceDetector(solutionConfidence=0.5, modelSelection=1)
+        detector = FaceDetector()
     elif model_type == 'Face Landmarks':
         detector = FaceLandmarkDetector()
     elif model_type == 'Selfie Segmentation':
