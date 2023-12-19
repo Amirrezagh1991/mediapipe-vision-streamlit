@@ -12,7 +12,7 @@ The tasks included in this repo are:
 
 ## Demo
 
-![Short Demo](https://github.com/Amirrezagh1991/mediapipe-vision-streamlit/blob/main/demo/mediapipe-demo.mov)
+![Short Demo](https://github.com/Amirrezagh1991/mediapipe-vision-streamlit/blob/main/demo/mediapipe-demo.mov?raw=true)
 
 ## Getting Started
 
